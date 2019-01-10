@@ -1,0 +1,139 @@
+/*
+
+Vivado v2016.1 (64-bit)
+SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+Process ID: 7004
+
+Current time: 	1/10/19 11:05:19 PM CET
+Time zone: 	Central European Time (Europe/Belgrade)
+
+OS: Windows 7
+Version: 6.1
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	C:/xilinx/Vivado/2016.1/tps/win64/jre
+
+User name: 	pszemek
+User home directory: C:/Users/pszemek
+User working directory: C:/Users/pszemek/PS2_to_VGA
+User country: 	PL
+User language: 	pl
+User locale: 	pl_PL
+
+RDI Base root directory: C:/xilinx/Vivado
+RDI Data directory: C:/xilinx/Vivado/2016.1/data
+RDI Bin directory: C:/xilinx/Vivado/2016.1/bin
+
+Vivado preferences path: C:/Users/pszemek/AppData/Roaming/Xilinx/Vivado/2016.1/vivado.ini
+Vivado layouts directory: C:/Users/pszemek/AppData/Roaming/Xilinx/Vivado/2016.1/layouts
+
+GUI allocated memory:	166 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 393 MB
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 39 MB (+38099kb) [00:00:21]
+// [Engine Memory]: 364 MB (+230001kb) [00:00:21]
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bL:g (cv:JFrame):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\pszemek\PS2_to_VGA\PS2_to_VGA.xpr. Version: Vivado v2016.1 
+// Tcl Message: open_project C:/Users/pszemek/PS2_to_VGA/PS2_to_VGA.xpr 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// [Engine Memory]: 394 MB (+12660kb) [00:00:26]
+// HMemoryUtils.trashcanNow. Engine heap size: 395 MB. GUI used memory: 26 MB. Current time: 1/10/19 11:05:21 PM CET
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 50 MB (+9940kb) [00:01:09]
+// [Engine Memory]: 489 MB (+78672kb) [00:01:09]
+// Tcl Message: open_project C:/Users/pszemek/PS2_to_VGA/PS2_to_VGA.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/xilinx/Vivado/2016.1/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 493 MB. GUI used memory: 32 MB. Current time: 1/10/19 11:06:10 PM CET
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, bL:g)
+// [GUI Memory]: 55 MB (+2776kb) [00:01:18]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 518 MB (+4838kb) [00:01:19]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: PS2_to_VGA; location: C:/Users/pszemek/PS2_to_VGA; part: xc7z010clg400-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:24 ; elapsed = 00:00:54 . Memory (MB): peak = 741.996 ; gain = 118.180 
+// TclEventType: DG_UPDATE_GRAPH
+dismissDialog("Open Project"); // bL:g (cv:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 11 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TOP - Behavioral (TOP.vhd)]", 1); // z:k (G:JPanel, cv:JFrame)
+// PAPropertyPanels.initPanels (PS2_Ctrl.vhd) elapsed time: 0.3s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PS2_Ctrl - ALSE_RTL (PS2_Ctrl.vhd)]", 9, false); // z:k (G:JPanel, cv:JFrame)
+// [GUI Memory]: 61 MB (+2950kb) [00:01:41]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PS2_Ctrl - ALSE_RTL (PS2_Ctrl.vhd)]", 9, false, false, false, false, true, false); // z:k (G:JPanel, cv:JFrame) - Popup Trigger
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PS2_Ctrl - ALSE_RTL (PS2_Ctrl.vhd)]", 9, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PS2_Ctrl - ALSE_RTL (PS2_Ctrl.vhd)]", 9, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectCodeEditor("PS2_Ctrl.vhd", 163, 214); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, f_div_1 - Behavioral (f_div_1.vhd)]", 10, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PS2_Ctrl - ALSE_RTL (PS2_Ctrl.vhd)]", 9, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PS2_Ctrl - ALSE_RTL (PS2_Ctrl.vhd)]", 9, false, false, false, false, true, false); // z:k (G:JPanel, cv:JFrame) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aB:g (cv:JFrame): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aB:g)
+// TclEventType: DG_GRAPH_STALE
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D:b
+dismissDialog("Remove Sources"); // aB:g (cv:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// aB:g (cv:JFrame): Remove Sources: addNotify
+// bL:g (aB:g):  Remove Sources : addNotify
+// Tcl Message: remove_files C:/Users/pszemek/PS2_to_VGA/PS2_to_VGA.srcs/sources_1/imports/new/PS2_Ctrl.vhd 
+dismissDialog("Remove Sources"); // bL:g (aB:g)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, f_div_1 - Behavioral (f_div_1.vhd)]", 9, false); // z:k (G:JPanel, cv:JFrame)
+// [GUI Memory]: 65 MB (+1387kb) [00:02:18]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, f_div_1 - Behavioral (f_div_1.vhd)]", 9, false, false, false, false, true, false); // z:k (G:JPanel, cv:JFrame) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aB:g (cv:JFrame): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aB:g)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Remove Sources"); // aB:g (cv:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files C:/Users/pszemek/PS2_to_VGA/PS2_to_VGA.srcs/sources_1/imports/new/f_div_1.vhd 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 69 MB (+202kb) [00:02:22]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TOP - Behavioral (TOP.vhd), licznik_inst - licznik - Behavioral (licznik.vhd)]", 2, false); // z:k (G:JPanel, cv:JFrame)

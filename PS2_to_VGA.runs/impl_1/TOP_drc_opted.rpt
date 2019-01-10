@@ -1,0 +1,40 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (win64) Build 1538259 Fri Apr  8 15:45:27 MDT 2016
+| Date         : Sat Sep 29 23:00:29 2018
+| Host         : leovo running 64-bit Service Pack 1  (build 7601)
+| Command      : report_drc -file TOP_drc_opted.rpt
+| Design       : TOP
+| Device       : xc7z010clg400-1
+| Speed File   : -1
+------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 2
+
+2. REPORT DETAILS
+-----------------
+CKLD-2#1 Warning
+Clock Net has IO Driver, not a Clock Buf, and/or non-Clock loads  
+Clock net clk_IBUF is directly driven by an IO rather than a Clock Buffer or may be an IO driving a mix of Clock Buffer and non-Clock loads. This connectivity should be reviewed and corrected as appropriate. Driver(s): clk_IBUF_inst/O
+Related violations: <none>
+
+ZPS7-1#1 Warning
+PS7 block required  
+The PS7 cell must be used in this Zynq design in order to enable correct default configuration.
+Related violations: <none>
+
+

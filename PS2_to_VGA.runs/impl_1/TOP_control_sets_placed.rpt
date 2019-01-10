@@ -1,0 +1,65 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (win64) Build 1538259 Fri Apr  8 15:45:27 MDT 2016
+| Date         : Sat Sep 29 23:00:32 2018
+| Host         : leovo running 64-bit Service Pack 1  (build 7601)
+| Command      : report_control_sets -verbose -file TOP_control_sets_placed.rpt
+| Design       : TOP
+| Device       : xc7z010
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    12 |
+| Unused register locations in slices containing registers |    48 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              11 |            5 |
+| No           | No                    | Yes                    |              67 |           19 |
+| No           | Yes                   | No                     |              12 |            5 |
+| Yes          | No                    | No                     |               1 |            1 |
+| Yes          | No                    | Yes                    |              11 |            2 |
+| Yes          | Yes                   | No                     |              42 |           11 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++-----------------------------------+-----------------------------------------+------------------------------------+------------------+----------------+
+|            Clock Signal           |              Enable Signal              |          Set/Reset Signal          | Slice Load Count | Bel Load Count |
++-----------------------------------+-----------------------------------------+------------------------------------+------------------+----------------+
+|  clk_IBUF                         | btn_cleaner_inst/btn_i_reg0             |                                    |                1 |              1 |
+|  pll_125_to_25_inst/inst/clk_out1 |                                         | licznik_inst/H0                    |                1 |              1 |
+|  pll_125_to_25_inst/inst/clk_out1 |                                         | licznik_inst/V0                    |                1 |              1 |
+|  keyboard_inst/R[2]               |                                         |                                    |                2 |              3 |
+|  pll_125_to_25_inst/inst/clk_out1 | temporary_counter_1/led_temp[3]_i_1_n_0 | res_IBUF                           |                1 |              4 |
+|  pll_125_to_25_inst/inst/clk_out1 | keyboard_inst/xkey[6]_i_1_n_0           | res_IBUF                           |                1 |              7 |
+|  pll_125_to_25_inst/inst/clk_out1 |                                         |                                    |                3 |              8 |
+|  pll_125_to_25_inst/inst/clk_out1 |                                         | licznik_inst/horizontal[9]_i_1_n_0 |                3 |             10 |
+|  pll_125_to_25_inst/inst/clk_out1 | licznik_inst/horizontal[9]_i_1_n_0      | licznik_inst/vertical              |                3 |             10 |
+|  clk_IBUF                         |                                         | res_IBUF                           |                8 |             32 |
+|  pll_125_to_25_inst/inst/clk_out1 | temporary_counter_1/licznik[0]_i_2_n_0  | temporary_counter_1/licznik0       |                8 |             32 |
+|  pll_125_to_25_inst/inst/clk_out1 |                                         | res_IBUF                           |               11 |             35 |
++-----------------------------------+-----------------------------------------+------------------------------------+------------------+----------------+
+
+
